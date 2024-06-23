@@ -30,7 +30,7 @@ export default function CaseStudySection() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-center rounded-[45px] gap-[40px] mt-[80px] bg-secondary text-white p-8 md:p-[50px]">
         {studies.map((study, index) => (
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center" key={index}>
             <div>
               <p className="pb-[20px]">{study.title}</p>
               <Link href="/">
