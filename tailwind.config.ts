@@ -18,6 +18,11 @@ const config = {
       },
     },
     extend: {
+      colors: {
+        primary: "#B9FF66",
+        secondary: "#191A23",
+        accent: "#F3F3F3"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -32,6 +37,14 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontSize: {
+        h1: "60px",
+        h1Mobile: "43px",
+        h2: "40px",
+        h3: "30px",
+        h3Mobile: "26px",
+        p: "20px"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
